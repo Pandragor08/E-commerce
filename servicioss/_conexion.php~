@@ -1,0 +1,8 @@
+<?php
+$con=mysqli_connect('localhost','root','','e-comerces');
+if($con==true){
+echo"Conectado";
+}else{
+echo"no conectado";
+}
+?>
